@@ -111,6 +111,10 @@ nav ul {
   justify-content: space-between;
 }
 
+header a:hover {
+  text-decoration: none;
+}
+
 header li {
   margin: 0 20px;
 }
@@ -122,7 +126,7 @@ header li {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 15px;
 }
 
 .header {
@@ -134,6 +138,14 @@ header li {
   display: flex;
 }
 
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  margin-right: 76px;
+}
+
 .logo-prefix {
   color: var(--primary-brand);
 }
@@ -143,12 +155,12 @@ header li {
 }
 
 .hero .container {
-  min-height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 48px;
+  padding: 188px 0;
 }
 
 .hero h1 {
@@ -171,7 +183,7 @@ header li {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 24px;
 }
 
 .advantages li {
@@ -187,7 +199,7 @@ header li {
 .doing {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 24px;
   margin-bottom: 100px;
   padding: 0;
 }
@@ -200,7 +212,7 @@ header li {
 .team {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 24px;
   margin-bottom: 100px;
   padding: 0;
 }
@@ -240,7 +252,7 @@ header li {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 24px;
   flex-wrap: wrap;
   margin-bottom: 100px;
 }
